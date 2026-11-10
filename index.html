@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Конфигуратор Zeekr 8X 2026: цвета, диски, салон | Evolution Car</title>
+<meta name="description" content="Соберите свой Zeekr 8X: версия Max, Ultra, Ultra+ или Shadow, батарея 55 или 70 кВт·ч, цвет кузова, диски и салон. Официальные рендеры Zeekr и цены в Китае, расчёт под ключ в Минске.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/konfigurator.css">
+<link rel="preload" as="image" href="img/zeekr-8x/360/night-black--00.webp">
+</head>
+<body>
+
+<header class="top">
+  <div class="container top__bar">
+    <a class="top__logo" href="https://evolutioncar.by/">EVOLUTION<span>CAR</span></a>
+    <a class="top__phone" href="tel:+375291358888">+375 (29) 135-88-88</a>
+  </div>
+</header>
+
+<nav class="crumbs" aria-label="Хлебные крошки">
+  <div class="container">
+    <ol>
+      <li><a href="https://evolutioncar.by/">Главная</a></li>
+      <li><a href="https://evolutioncar.by/catalog/">Каталог автомобилей</a></li>
+      <li><a href="https://evolutioncar.by/catalog/zeekr/">Zeekr</a></li>
+      <li><span>8X</span></li>
+      <li><span aria-current="page">Конфигуратор 8X</span></li>
+    </ol>
+  </div>
+</nav>
+
+<main>
+  <section class="cfg-head">
+    <div class="container cfg-head__grid">
+      <h1>Конфигуратор нового Zeekr 8X</h1>
+      <div class="cfg-head__side">
+        <p class="cfg-head__lead">Выберите версию, батарею, цвет, диски и салон – менеджер подберёт автомобиль под вашу конфигурацию и пришлёт расчёт под ключ.</p>
+        <a class="cfg-head__link" href="https://evolutioncar.by/catalog/zeekr/">Все модели Zeekr <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cfg-body">
+    <div class="container">
+      <div class="cfg" data-cfg>
+
+        <!-- Сцена с картинкой -->
+        <div class="cfg__stage-wrap">
+          <div class="cfg__stage is-ext" tabindex="0" role="img" aria-label="Новый Zeekr 8X. Потяните влево или вправо, чтобы повернуть автомобиль">
+            <div class="cfg__shot cfg__shot--a"><img alt="Zeekr 8X" width="1600" height="1000" draggable="false"></div>
+            <div class="cfg__shot cfg__shot--b"><img alt="" width="1600" height="1000" draggable="false"></div>
+            <div class="cfg__hint-360" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="16" height="16"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3M18 3v4h-4M6 21v-4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Потяните – 360°
+            </div>
+            <div class="cfg__caption">
+              <div class="cfg__name" data-slot="stage-name">Zeekr 8X</div>
+              <div class="cfg__note" data-slot="stage-note"></div>
+            </div>
+            <div class="cfg__arrows">
+              <button type="button" class="cfg__arrow" data-nav="prev" aria-label="Предыдущий кадр">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <button type="button" class="cfg__arrow cfg__arrow--next" data-nav="next" aria-label="Следующий кадр">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+            <div class="cfg__loader" aria-hidden="true"></div>
+          </div>
+          <div class="cfg__thumbs" data-slot="thumbs" aria-label="Вид"></div>
+        </div>
+
+        <!-- Панель выбора -->
+        <div class="cfg__panel">
+
+          <div class="cfg__block">
+            <div class="cfg__head"><h2 class="cfg__title">Версия</h2></div>
+            <div class="cfg__trims" data-slot="versions"></div>
+            <dl class="cfg__rows" data-slot="version-rows"></dl>
+          </div>
+
+          <div class="cfg__block">
+            <div class="cfg__head"><h2 class="cfg__title">Батарея</h2></div>
+            <div class="cfg__segs" data-slot="battery"></div>
+            <p class="cfg__opt-note" data-slot="battery-note" hidden>Shadow выпускается только с батареей 70 кВт·ч</p>
+          </div>
+
+          <div class="cfg__block">
+            <div class="cfg__head"><h2 class="cfg__title">Цвет кузова</h2><span class="cfg__picked" data-slot="paint-picked"></span></div>
+            <div class="cfg__swatches" data-slot="paints"></div>
+            <p class="cfg__opt-note" data-slot="paint-note"></p>
+          </div>
+
+          <div class="cfg__block">
+            <div class="cfg__head"><h2 class="cfg__title">Диски</h2><span class="cfg__picked" data-slot="wheel-picked"></span></div>
+            <div class="cfg__options" data-slot="wheels"></div>
+          </div>
+
+          <div class="cfg__block">
+            <div class="cfg__head"><h2 class="cfg__title">Цвет салона</h2><span class="cfg__picked" data-slot="interior-picked"></span></div>
+            <div class="cfg__swatches" data-slot="interiors"></div>
+            <p class="cfg__opt-note" data-slot="interior-note"></p>
+          </div>
+
+          <div class="cfg__block">
+            <div class="cfg__head"><h2 class="cfg__title">У всех версий</h2></div>
+            <dl class="cfg__rows">
+              <div class="cfg__row"><dt>Тип</dt><dd>Гибрид с подзарядкой, полный привод</dd></div>
+              <div class="cfg__row"><dt>Двигатель</dt><dd>Бензиновый 2.0T, 205 кВт</dd></div>
+              <div class="cfg__row"><dt>Электрика</dt><dd>Архитектура 900 В</dd></div>
+              <div class="cfg__row"><dt>Проекция на стекло</dt><dd>AR-HUD 44″</dd></div>
+              <div class="cfg__row"><dt>Мест</dt><dd>5, у Ultra и Ultra+ можно 6</dd></div>
+            </dl>
+          </div>
+
+          <div class="cfg__block cfg__summary">
+            <div class="cfg__summary-title">Ваш новый Zeekr 8X</div>
+            <div class="cfg__summary-config" data-slot="summary-config"></div>
+            <dl class="cfg__rows" data-slot="summary-lines"></dl>
+            <div class="cfg__summary-label">Цена Zeekr в Китае</div>
+            <div class="cfg__price" data-slot="price"></div>
+            <div class="cfg__price--ask">Под ключ в Минске – рассчитаем под вашу конфигурацию</div>
+
+            <!-- data-endpoint: URL обработчика заявок сайта (POST JSON). Пусто – заявка только пишется в консоль. -->
+            <form class="cfg__form" data-endpoint="" novalidate>
+              <div class="cfg__form-title">Получить расчёт под ключ</div>
+              <input type="hidden" name="config" value="">
+              <input class="cfg__input" type="text" name="name" placeholder="Ваше имя" autocomplete="name">
+              <div class="cfg__phone">
+                <select class="cfg__input cfg__code" name="code" aria-label="Код страны">
+                  <option value="+375">🇧🇾 +375</option>
+                  <option value="+7">🇷🇺 +7</option>
+                </select>
+                <input class="cfg__input" type="tel" name="phone" placeholder="Ваш номер телефона" autocomplete="tel-national" required>
+              </div>
+              <button class="cfg__btn" type="submit">Отправить заявку</button>
+              <label class="cfg__consent">
+                <input type="checkbox" name="consent" required checked>
+                <span>Даю согласие ООО «Тренд Экспресс Авто» на обработку имени и номера телефона, чтобы со мной связались по заявке. С <a href="https://evolutioncar.by/policy/" target="_blank" rel="noopener">Политикой конфиденциальности</a> ознакомлен(а).</span>
+              </label>
+              <p class="cfg__form-status" role="status" aria-live="polite"></p>
+            </form>
+
+            <p class="cfg__photo-note">Изображения – официальные рендеры Zeekr (zeekrlife.com) для выбранной версии и цвета; для дисков показан вид диска на схеме, на рендере – диски из официального 360°-обзора. Цены – официальные розничные цены Zeekr в Китае на 2026 модельный год; доступность вариантов у конкретного автомобиля менеджер подтвердит до договора.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="container">© 2026 Evolution Car · г. Минск, проспект Машерова, 15/4 · <a href="tel:+375291358888">+375 (29) 135-88-88</a></div>
+</footer>
+
+<script src="js/zeekr-8x-data.js"></script>
+<script src="js/konfigurator.js"></script>
+</body>
+</html>
